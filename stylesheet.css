@@ -1,0 +1,59 @@
+body{
+    font: 1em sans-serif;
+}
+header{
+    color: white;
+    background-color:black;
+    padding: 2%;
+}
+.navigation{
+    background-color: white;
+    width: 167%;
+    padding: 1px;
+}
+.paragraph-one{
+    font-size:x-large;
+    color: black;
+}
+.paragraph-two{
+    font-size: large;
+}
+.paragraph-three{
+    font-size: large;
+}
+.paragraph-four{
+    color: black;
+}
+    
+main{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+aside{
+    width: 40%;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 40rem;
+    float: none;
+    clear: left;
+    background-color: black;
+    color: white;
+}
+
+.tagger{
+    color: black;
+}
+
+
+@media screen and (max-width: 450px) {
+    aside{
+        font-size: 16px;
+        display: none;
+    }
+}
